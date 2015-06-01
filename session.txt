@@ -1,0 +1,4 @@
+$_SESSION['key'] = '';
+$_SESSION[] = array();
+Session_unset();
+Session_destroy();

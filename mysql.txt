@@ -1,0 +1,42 @@
+create database lilychat
+character set 'utf8'
+collate 'utf8_general_ci';
+
+use lilychat
+
+create table users (
+userid int unsigned not null auto_increment primary key,
+username varchar(20) not null default '',
+password char(32) not null default '',
+email varchar(30) not null default '',
+regtime int unsigned not null default 0,
+lastlogin int unsigned not null default 0,
+note varchar(100) not null default ''
+) engine myisam charset utf8;
+
+insert into users (username,password) 
+values ('Ğ¡¶ÈÒÀÈ»°®Äã','123456');
+
+create table msg1 (
+msgid int unsigned not null auto_increment primary key,
+send int unsigned not null default 0,
+content varchar(100) not null default '',
+time int unsigned not null default 0,
+s2c int unsigned not null default 0,
+c2s int unsigned not null default 0
+) engine myisam charset utf8;
+
+create table msg2 (
+msgid int unsigned not null auto_increment primary key,
+send int unsigned not null default 0,
+content varchar(100) not null default '',
+p2p int unsigned not null default 0,
+s2c int unsigned not null default 0,
+c2s int unsigned not null default 0
+) engine myisam charset utf8;
+
+insert into msg1 (send,content,time)
+values (2,'hi',1408423778);
+
+insert into msg2 (send,content,time)
+values (1,'hello lily',1408423778);

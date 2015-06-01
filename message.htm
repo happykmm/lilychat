@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>LilyChat网页版</title>
+<link rel="stylesheet" type="text/css" href="message/login184f03.css">
+<link rel="stylesheet" type="text/css" href="message/comm1f5c94.css">
+<link rel="stylesheet" type="text/css" href="message/zh_CN17ced3.css">
+<link rel="stylesheet" type="text/css" href="message/emoji184f03.css">
+<link rel="stylesheet" type="text/css" href="message/jplayer.css">
+<script type="text/javascript" charset="utf-8" async="" src="./message/message.js"></script>
+</head>
+<body ctrl="1">
+<div id="container" style="">
+  <div ctrl="1" id="chat" class="chatPanel normalPanel">
+    <div class="panelBackground"> <img src="message/spacer17ced3.gif" onerror="reLoadImg(this)">
+      <p>欢迎来到</p>
+      <p>LilyChat网页版</p>
+    </div>
+    <div class="content">
+      <div ctrl="1" id="chat_leftpanel" class="list">
+        <div class="top">
+          <div id="profile" class="title">
+            <div class="myProfile"> <img src="message/webwxgeticon_011.jpg" un="avatar_wxid_hvng3tj3by0g21" onerror="reLoadImg(this)">
+              <div class="avatar" id="accountAvatarWrapper" click="popupModifyAvatarWin" style="cursor:pointer;"></div>
+              <a class="unreadTotalCount" id="unreadTotalCount" href="javascript:;" style="display:none;">0</a>
+              <div class="info"> <span class="nickName">用户名</span> </div>
+              <div class="operaterBox" style="display:none;" id="operaterBox">
+                <div class="operaterBoxPanel"> <a href="javascript:;" class="addFriends" click="createChatroom"> <span class="iconPic left"></span> <span class="operaterBoxTitle left">发起聊天</span>
+                  <div class="clr"></div>
+                  </a> <a href="javascript:;" class="voiceCancel" click="toggleMute"> <span class="iconPic  left"></span> <span class="operaterBoxTitle left">关闭声音</span>
+                  <div class="clr"></div>
+                  </a> <a href="javascript:;" class="feedback" click="feedback"> <span class="iconPic iconFeedback left"></span> <span class="operaterBoxTitle left">意见反馈</span>
+                  <div class="clr"></div>
+                  </a> <a href="javascript:;" class="iconLogout" url="/cgi-bin/mmwebwx-bin/webwxlogout" click="logout"> <span class="iconPic iconPicLogout left"></span> <span class="operaterBoxTitle left">退出</span>
+                  <div class="clr"></div>
+                  </a> </div>
+              </div>
+              <a href="javascript:;" class="iconOperater" click="toggleSysMenu"></a> </div>
+            <div class="clr"></div>
+          </div>
+        </div>
+        <!--search-->
+        <div class="chatListSearch">
+          <div class="chatListSearchPanel">
+            <div class="listOperatorContent">
+              <div class="conmu left active" click="switchPanel" un="conversation" id="chooseConversationBtn"><a class="conmuButton" href="javascript:;" title="聊天"><span class="bag"></span><span id="totalUnreadDot" class="unreadDot" style="display:none;">0</span></a></div>
+              <div class="cutOffRule"></div>
+              <div class="addr notChooseOpera right" click="switchPanel" un="contact"><a class="addrButton " href="javascript:;" title="通讯录"><span class="bag"></span></a></div>
+            </div>
+            <div class="chatListSearchInput left"> <span class="chatListSearchIcon left"></span>
+              <input class="left" name="search" keydown="preSearch" keyup="search@.chatListSearchInput" placeholder="搜索" id="conv_search" type="text">
+              <span class="searchClean left" click="cleanSearchWord@.chatListSearchInput" style="display:none;" id="conv_search_clean"></span> </div>
+            <div class="clr"></div>
+          </div>
+        </div>
+        <!--search end-->
+        <div class="listContentWrap" style="position: relative; overflow-y: hidden; height: 501px;">
+          <div style="height: 100%; width: 100%; overflow-y: hidden; position: relative;">
+            <div ctrl="1" class="listContent" id="chat_conversationListContent" style="width: 100%; top: 0px; position: absolute;">
+              <div id="conversationContainer">
+                
+                <!--  一个消息小框框开始 -->
+                
+                <div class="chatListColumn activeColumn" onclick="WebMM.chooseConversation(this)" un="3819724415@chatroom" username="3819724415@chatroom" id="conv_3819724415chatroom">
+                  <div class="clicked" style="display:none;"></div>
+                  <span class="unreadDot" style="display:none">0</span> <span class="unreadDotS" style="display:none"></span>
+                  <div class="avatar_wrap"><img class="avatar" src="message/webwxgetheadimg_002.jpg" onerror="reLoadImg(this)" click1="showProfile@.chatListColumn"></div>
+                  <div class="extend">
+                    <p class="time">00:00</p>
+                    <div class="edited"><i class="editedIcon"></i></div>
+                    <div class="mute" style="display:none;"></div>
+                  </div>
+                  <div class="info">
+                    <div class="nickName">
+                      <div class="left name" style="">消息列表项：没做好╮(╯▽╰)╭</div>
+                      <div class="personNum left">(00)</div>
+                      <div class="clr"></div>
+                    </div>
+                    <div class="descWrapper"> <img src="message/spacer17ced3.gif" class="tipIcon iconSendFailed sendFailedStatus" style="display:none;"> <img style="display: none;" src="message/spacer17ced3.gif" class="tipIcon iconSending sendingStatus hide">
+                      <p class="desc">消息列表项: 没做好╮(╯▽╰)╭</p>
+                    </div>
+                  </div>
+                  <div class="clr"></div>
+                </div>
+                
+                <!-- 一个消息小框框结束 -->
+                
+                                             
+                
+                
+              </div>
+            </div>
+            
+            
+            <div style="position: absolute; right: 0px; top: 0px; height: 100%;" class="scrollbarBox">
+              <div style="display: block; position: absolute; right: 0px; top: 0px; height: 454px; opacity: 0; z-index: auto;" class="scrollbar"></div>
+            </div>
+          </div>
+          <div class="createNewChat" style="height: 100%; width: 100%; top: 0px; left: 0px; z-index: 0; overflow: hidden; display: none; position: relative;">
+            <div ctrl="1" class="listContent" id="chat_contactListContent" style="width: 100%; top: 0px; position: absolute;">
+              <div id="contactListContainer"> </div>
+            </div>
+            <div style="position: absolute; right: 0px; top: 0px; height: 100%;" class="scrollbarBox">
+              <div style="display: none; position: absolute; right: 0px; top: 0px;" class="scrollbar"></div>
+            </div>
+          </div>
+        </div>
+        <div class="chatLeftPanelShadow"></div>
+        <!--conmunication and chat-->
+        <div class="listOperator">
+          <div class="listBarContent"> </div>
+        </div>
+      </div>
+      <div id="vernierContainer" style="width: 32px; position: relative; float: left; overflow: hidden; margin-top: 135px; visibility: visible; height: 501px;">
+        <div style="top: 2.5px;" class="activeChatVernier"><img src="message/spacer17ced3.gif" onerror="reLoadImg(this)"></div>
+      </div>
+      <div class="chat lightBorder" style="visibility: visible;">
+        <div style="height: 621px;" class="chatContainer"> 
+          <!--close button--> 
+          <!--single and group chat,back to chat icon--> 
+          <!-- singleChat groupChat backToChat -->
+          <div class="rightOpBtn groupChat" id="rightOpBtn" click="toggleChatMgr" style="display: block;"><a href="javascript:;"></a></div>
+          <div class="backToChat" id="leftOpBtn" click="toggleChatMgr" style="display:none;"><a href="javascript:;"></a></div>
+          <div class="chatMainPanel" id="chatMainPanel">
+            <div class="chatTitle">
+              <div class="chatNameWrap">
+                <p class="chatName" id="messagePanelTitle">LilyChat！自己乱搞的聊天软件！杀青！</p>
+              </div>
+            </div>
+            <div style="height: 522px; overflow-y: auto; position: relative;" class="chatScorll" id="chat_chatscorll">
+              <div style="top: 0px; position: absolute;" ctrl="1" id="chat_chatmsglist" class="chatContent"> 
+              
+              <!-- msg will be shown here-->
+              
+              </div>
+              <div style="position: absolute; right: 0px; top: 0px; height: 100%;" class="scrollbarBox">
+                <div style=" position: absolute; right: 0px; top: 0px; opacity: 0;" class="scrollbar"></div>
+              </div>
+            </div>
+            <div ctrl="1" id="chat_editor" class="chatOperator lightBorder">
+              <div style="" class="inputArea">
+                <div class="attach"> <a href="javascript:;" id="sendEmojiIcon" class="func expression" click="showEmojiPanel" title="选择表情"></a> <a href="javascript:;" id="screenSnapIcon" class="func screensnap" click="screenSnap" title="发送截屏" style=""></a>
+                  <form class="left" id="sendFileIcon" url="http://file.wx.qq.com/cgi-bin/mmwebwx-bin/webwxuploadmedia?cgi=sendfile&amp;t=chat&amp;callbackfun=sendFile" enctype="multipart/form-data" method="post" target="actionFrame" style="">
+                    <input name="uploadmediarequest" value="{BaseRequest:{}}" type="hidden">
+                    <a href="javascript:;" class="func file" style="position:relative;display:block;margin:0;" title="文件图片" id="uploadFileContainer">
+                    <div style="position: absolute;top:0;left:0; width: 100%; height: 100%;overflow:hidden;filter:alpha(opacity=0);opacity:0;cursor:pointer;">
+                      <div>
+                        <input change="sendAppMsg@form" name="filename" style="width:100%;height:100%;margin:0;cursor:pointer;font-size:100px;" type="file">
+                      </div>
+                    </div>
+                    </a>
+                  </form>
+                </div>
+                <textarea style="" type="text" id="textInput" class="chatInput lightBorder"></textarea>
+                <a href="javascript:;" class="chatSend" onclick="sendmsg()"><b>发送</b></a>
+                <div id="recordInput" class="recordInput chatInput" style="display:none;"></div>
+                <div class="clr"></div>
+                <textarea style="visibility: hidden; position: absolute; left: -1000px; padding: 0px 10px; width: 402px; overflow: hidden;" type="text" id="textInput" class="chatInput lightBorder"></textarea>
+              </div>
+              <div class="dragUploaderPanel" id="dragPanel" style="display:none;">
+                <div intxt="释放鼠标" outtxt="请将文件拖拽到这里发送" style="text-align:center;"> </div>
+              </div>
+              <div class="emojiPanel" style="display:none;" id="emojiPanel"></div>
+            </div>
+          </div>
+          
+          <!--change main panel-->
+          <div class="chatDetails" style="display:none;" id="chatDetailPanel">
+            <div ctrl="1" id="chat_chattingmgr">
+              <div class="chatTitle">
+                <div class="chatNameWrap">
+                  <p class="chatName">聊天信息</p>
+                </div>
+              </div>
+              <div class="chatDetailsContent">
+                <div class="clr"></div>
+                <div style="height: 415px; overflow-y: hidden; position: relative;" class="section participant" id="chattingmgr_list">
+                  <div style="margin-top: 10px; top: 0px; position: absolute;"></div>
+                  <div style="position: absolute; right: 0px; top: 0px; height: 100%;" class="scrollbarBox">
+                    <div style="display: none; position: absolute; right: 0px; top: 0px;" class="scrollbar"></div>
+                  </div>
+                </div>
+                <div class="section" style="">
+                  <div id="chatting_mgr_operator">
+                    <div class="chatDetailsTitle left"> <span class="groupName left"></span>
+                      <h3 class="left">群聊名称:</h3>
+                      <div class="left" style="position:relative;">
+                        <p class="partiTitleName left" style="" click="modChatroomTopic" noname="未命名"></p>
+                        <input class="left" style="display:none;">
+                      </div>
+                      <div class="clr"></div>
+                    </div>
+                    <div class="exitGroup right">
+                      <div class="exitGroupPanel"> <span class="exitGroupIcon left"></span> <a href="javascript:;" class="exitGroupWorld left" click="quitChatroom">删除并退出</a>
+                        <div class="clr"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--change main panel end--> 
+        </div>
+      </div>
+      <div style="clear: both; visibility: visible;"></div>
+    </div>
+  </div>
+</div>
+<div class="footer">
+  <p class="recommend_wrp"></p>
+  <a class="icon_faq" href="javascript:" target="_blank"><img src="message/spacer17ced3.gif" onerror="reLoadImg(this)"></a>
+  <p class="webwx">lilychat.sinaapp.com&nbsp;&nbsp;LilyChat网页版</p>
+</div>
+</body>
+</html>

@@ -1,0 +1,66 @@
+		<div class="chatItem me" un="item_1021445648">
+                  <div class="time"> <span class="timeBg left"></span> 16:59 <span class="timeBg right"></span> </div>
+                  <div class="chatItemContent"> <img class="avatar" src="message/webwxgeticon_011.jpg" onerror="reLoadImg(this)" un="avatar_wxid_hvng3tj3by0g21" title="小度依然爱你" click="showProfile" username="wxid_hvng3tj3by0g21">
+                    <div class="cloud cloudText" un="cloud_1021445648" msgid="1021445648">
+                      <div class="cloudPannel" style="">
+                        <div class="sendStatus"> </div>
+                        <div class="cloudBody">
+                          <div class="cloudContent">
+                            <pre style="white-space:pre-wrap">下午好</pre>
+                          </div>
+                        </div>
+                        <div class="cloudArrow "></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="chatItem me" un="item_1408352368392">
+                  <div class="chatItemContent"> <img class="avatar" src="message/webwxgeticon_011.jpg" onerror="reLoadImg(this)" un="avatar_wxid_hvng3tj3by0g21" title="小度依然爱你" click="showProfile" username="wxid_hvng3tj3by0g21">
+                    <div class="cloud cloudText" un="cloud_1021445651" msgid="1021445651">
+                      <div class="cloudPannel" style="">
+                        <div class="sendStatus"> </div>
+                        <div class="cloudBody">
+                          <div class="cloudContent">
+                            <pre style="white-space:pre-wrap">忽略我123123123123123123123123123 - -</pre>
+                          </div>
+                        </div>
+                        <div class="cloudArrow "></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="chatItem you" un="item_1021445652">
+                  <div class="chatItemContent"> <img class="avatar" src="message/webwxgeticon_005.jpg" onerror="reLoadImg(this)" un="avatar_wxid_y62jzctozxen22" title="Plain Bridge" click="showProfile" username="wxid_y62jzctozxen22">
+                    <div class="cloud cloudText" un="cloud_1021445652" msgid="1021445652">
+                      <div class="cloudPannel" style="">
+                        <div class="sendStatus"> </div>
+                        <div class="cloudBody">
+                          <div class="cloudContent">
+                            <pre style="white-space:pre-wrap">12312312312312312312312312312312312312312311231231231231231傍晚好</pre>
+                          </div>
+                        </div>
+                        <div class="cloudArrow "></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                
+
+                <div class="chatItem you" un="item_1021445654">
+                  <div class="chatItemContent"> <img class="avatar" src="message/webwxgeticon_005.jpg" onerror="reLoadImg(this)" un="avatar_wxid_y62jzctozxen22" title="Plain Bridge" click="showProfile" username="wxid_y62jzctozxen22">
+                    <div class="cloud cloudText" un="cloud_1021445654" msgid="1021445654">
+                      <div class="cloudPannel" style="">
+                        <div class="sendStatus"> </div>
+                        <div class="cloudBody">
+                          <div class="cloudContent">
+                            <pre style="white-space:pre-wrap">重视我--</pre>
+                          </div>
+                        </div>
+                        <div class="cloudArrow "></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
